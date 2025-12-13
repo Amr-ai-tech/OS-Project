@@ -1,0 +1,9 @@
+C:\Users\Dell\source\repos\OS_Project\bin\Debug\OS_Project.exe.config
+C:\Users\Dell\source\repos\OS_Project\bin\Debug\OS_Project.exe
+C:\Users\Dell\source\repos\OS_Project\bin\Debug\OS_Project.pdb
+C:\Users\Dell\source\repos\OS_Project\obj\Debug\OS_Project.csproj.AssemblyReference.cache
+C:\Users\Dell\source\repos\OS_Project\obj\Debug\OS_Project.Properties.Resources.resources
+C:\Users\Dell\source\repos\OS_Project\obj\Debug\OS_Project.csproj.GenerateResource.cache
+C:\Users\Dell\source\repos\OS_Project\obj\Debug\OS_Project.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\OS_Project\obj\Debug\OS_Project.exe
+C:\Users\Dell\source\repos\OS_Project\obj\Debug\OS_Project.pdb
