@@ -34,7 +34,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.CodeDom, Version=10.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.CodeDom.10.0.1\lib\net462\System.CodeDom.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +50,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="cpuinfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cpuinfo.Designer.cs">
+      <DependentUpon>cpuinfo.cs</DependentUpon>
+    </Compile>
     <Compile Include="devform.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,11 +80,41 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="miform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="miform.Designer.cs">
+      <DependentUpon>miform.cs</DependentUpon>
+    </Compile>
     <Compile Include="mkfileform.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mkfileform.Designer.cs">
       <DependentUpon>mkfileform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="osform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="osform.Designer.cs">
+      <DependentUpon>osform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pc-rename-form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pc-rename-form.Designer.cs">
+      <DependentUpon>pc-rename-form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pcinfoform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pcinfoform.Designer.cs">
+      <DependentUpon>pcinfoform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="pctform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="pctform.Designer.cs">
+      <DependentUpon>pctform.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,6 +136,9 @@
     <Compile Include="systemform.Designer.cs">
       <DependentUpon>systemform.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="cpuinfo.resx">
+      <DependentUpon>cpuinfo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="devform.resx">
       <DependentUpon>devform.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,8 +151,23 @@
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="miform.resx">
+      <DependentUpon>miform.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mkfileform.resx">
       <DependentUpon>mkfileform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="osform.resx">
+      <DependentUpon>osform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pc-rename-form.resx">
+      <DependentUpon>pc-rename-form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pcinfoform.resx">
+      <DependentUpon>pcinfoform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="pctform.resx">
+      <DependentUpon>pctform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -129,6 +187,7 @@
     <EmbeddedResource Include="systemform.resx">
       <DependentUpon>systemform.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

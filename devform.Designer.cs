@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.dlab = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.Developers = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // dlab
@@ -43,13 +43,17 @@
             this.dlab.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.dlab.Click += new System.EventHandler(this.dlab_Click);
             // 
-            // label2
+            // Developers
             // 
-            this.label2.Location = new System.Drawing.Point(406, 392);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(1102, 627);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
+            this.Developers.Font = new System.Drawing.Font("MV Boli", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Developers.Location = new System.Drawing.Point(248, 271);
+            this.Developers.Name = "Developers";
+            this.Developers.Size = new System.Drawing.Size(1470, 803);
+            this.Developers.TabIndex = 1;
+            this.Developers.Text = "Amr Mansour Mostafa Abd-Elhameed\r\nMohammed Ibrahem Mohammed Abdul Ghaffar\r\nOmar U" +
+    "sama Abd EL- Ghany  Khalaf\r\nMostafa Reda Hassan Shaaban\r\nMahmoud Gamal Mohamed M" +
+    "ohamed\r\n\r\n\r\n";
+            this.Developers.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // devform
             // 
@@ -57,7 +61,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(2007, 1130);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.Developers);
             this.Controls.Add(this.dlab);
             this.Name = "devform";
             this.Text = "devform";
@@ -68,6 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Label dlab;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label Developers;
     }
 }
