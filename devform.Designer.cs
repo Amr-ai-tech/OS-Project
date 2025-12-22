@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(devform));
             this.dlab = new System.Windows.Forms.Label();
             this.Developers = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -50,9 +51,7 @@
             this.Developers.Name = "Developers";
             this.Developers.Size = new System.Drawing.Size(1470, 803);
             this.Developers.TabIndex = 1;
-            this.Developers.Text = "Amr Mansour Mostafa Abd-Elhameed\r\nMohammed Ibrahem Mohammed Abdul Ghaffar\r\nOmar U" +
-    "sama Abd EL- Ghany  Khalaf\r\nMostafa Reda Hassan Shaaban\r\nMahmoud Gamal Mohamed M" +
-    "ohamed\r\n\r\n\r\n";
+            this.Developers.Text = resources.GetString("Developers.Text");
             this.Developers.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // devform

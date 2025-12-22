@@ -117,4 +117,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="Developers.Text" xml:space="preserve">
+    <value>Amr Mansour Mostafa Abd-Elhameed
+Mohammed Ibrahem Mohammed Abdul Ghaffar
+Omar Usama Abd EL- Ghany  Khalaf
+Mostafa Reda Hassan Shaaban
+Mahmoud Gamal Mohamed Mohamed
+Amr Yosef abd alfattah Yosef
+
+</value>
+  </data>
 </root>
